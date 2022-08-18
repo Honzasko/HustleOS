@@ -1,0 +1,1 @@
+qemu-system-x86_64 image.hdd -drive if=pflash,format=raw,unit=0,file=/usr/share/edk2-ovmf/x64/OVMF_CODE.fd,readonly=on -drive if=pflash,format=raw,unit=1,file=/usr/share/edk2-ovmf/x64/OVMF_VARS.fd -m 128M -enable-kvm
